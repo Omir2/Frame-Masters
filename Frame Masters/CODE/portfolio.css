@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(90deg,#000000,#000000a9);
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+
+}
+.navbar ul{
+    display: flex;
+    margin-right: 30px;
+    height:30px;
+    list-style: none;
+    color: #fff;
+
+ 
+}
+.navbar ul li {
+margin: 20px;
+color: #fff;
+
+}
+a{
+text-decoration: none;
+font-size: 20px;
+color: #fff;
+}
+.text{
+    margin: 90px 20px;
+}
+h1{
+    text-transform: uppercase;
+}
+p{
+    margin-left: 1200px;
+}
+span{
+    opacity: 0.7;
+}
+.SeeMore{
+    margin-top: -10px;
+    width: 160px;
+    height: 40px;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    background-color: rgb(0, 0, 0);
+    font-size:17px;
+    text-align: start;
+    text-indent: 13px; 
+}
+.SeeMore:hover{
+    transform: translateY(5px);
+    color: rgba(0, 0, 0, 0.801);
+    background-color: #ffffff;
+    
+}
+.iamgePortfoliio{
+    margin-top: -20px;
+    height: 100px;
+    margin-left: 200px;
+    gap: 20px;
+    display: flex;
+}
+
+.FotoLink {
+    position: relative;
+    display: inline-block;
+}
+
+.FotoLink img {
+    display: block;
+    filter: blur(2px) brightness(0.4); /* تحديد درجة التغبيش وسطوع الصورة */
+}
+
+.textFoto {
+    text-decoration: none;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffffa8; /* لون النص */
+    font-size: 17px; 
+    text-decoration: underline;
+
+}

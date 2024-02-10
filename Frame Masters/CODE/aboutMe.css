@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:linear-gradient(90deg,#000000,#302d2dc2);
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+}
+:root{
+    --mg-lft:30px;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 35px;
+    height:30px;
+    list-style: none;
+    color: #fff;
+}
+.navbar ul li {
+    margin: 20px;
+    color: #fff;
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.image{
+    margin-top: 70px;
+    margin-left: 1330px;
+    border: 0px solid;
+}
+.textBox{
+    margin-top: -400px;
+    margin-left: var(--mg-lft);
+}
+.text1-1{
+    opacity: 0.7;
+}
+.text2{
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.nums{
+    display: flex;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.nums .num{
+    margin-left: 30px;
+}
+.textnumber{
+    display: flex;
+    height:30px;
+    margin-left: 25px;
+}
+.Filming{
+    margin-right: 20px;
+}
+.Photosession{
+    margin-left: 0px;
+}
+.Conference{
+    margin-left: 30px;
+}

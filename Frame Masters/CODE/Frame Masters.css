@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --font-size:100px;
+    --txt-alin:center;
+    --font-family: 'Nunito Sans', sans-serif;
+    --letter-spacing: 40px;
+    --position: relative;
+    --opacity: 0.7;
+    --margin-top: 70px;
+    --het: 500px;
+    --mag-tp: -100px;
+    --mag-lf:50px;
+}
+body{
+    background: linear-gradient(90deg,#000000,#000000d5);
+    font-family: 'Nunito Sans', sans-serif;;
+
+}
+.navbar ul{
+        display: flex;
+        margin-right: 30px;
+        height:30px;
+        list-style: none;
+        color: #fff;
+
+     
+}
+.navbar ul li {
+    margin: 20px;
+    color: #fff;
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.Contact{
+    margin-left: 1500px;
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    transition: 0.3s ease;
+}
+.Contact:hover{
+    transform: translateY(5px);
+    background-color: rgb(10, 10, 10);
+    color: rgba(0, 0, 0, 0.801);
+}
+.span1{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 30px;
+    position: relative;
+    opacity: 0.7;
+    transition: opacity 0.9s ease-in-out;
+    margin-top: 40px;
+    color: #fff;
+
+
+}
+.FRAME{
+    font-size: var(--font-size);
+    text-align: var(--txt-alin);
+    position: var(--position);
+    letter-spacing: var(--letter-spacing);
+    margin-top: 40px;
+    color: #fff;
+
+}
+.home .foto2{
+    height: 500px;
+    margin-top: -90px;
+    margin-left: 900px;
+    border: 0px solid;
+
+}
+.imageHome .foto1{
+    height: 500px;
+    margin-top: -100px; 
+    margin-left: 50px;
+    border: 0px solid;
+
+}
+.imageHome .foto3{
+    height: var(--het);
+    margin-top: var(--mag-tp);
+    margin-left: var(--mag-lf);
+    border: 0px solid;
+
+}
+h2{
+    padding: 1px;
+    margin-top: -620px;
+    margin-left: 70px;
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.7;
+}
+h3{
+    padding: 1px;
+    margin-left: 470px;
+    font-size: 16px;
+    margin-top: -45px;
+    opacity: 0.7;
+    color: #ffffff; 
+}
+.span2{
+    color: #ffffff;
+    margin-left:70px;   
+    position: relative;
+    opacity: 0.7;
+    transition: opacity 0.9s ease-in-out;
+    text-transform: uppercase;
+}
+.span3{
+    color: #fff;
+    margin-left: 470px;
+    position: relative;
+    opacity: 0.7;
+    transition: opacity 0.9s ease-in-out;
+    text-transform: uppercase;
+}
+.startProject{
+    margin-left: 900px;
+    margin-top: 100px;
+    width: 160px;
+    height: 40px;
+    color: #000000;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    background-color: rgb(255, 255, 255);
+    font-size:17px;
+}
+.startProject:hover{
+    transform: translateY(5px);
+    color: rgba(255, 255, 255, 0.801);
+    background-color: #000000;
+}
+.MyPortfolio{
+    margin-left: 900px;
+    margin-top: 40px;
+    width: 160px;
+    height: 40px;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    background-color: rgb(0, 0, 0);
+    font-size:15px;
+    text-align: start;
+    text-indent: 15px;
+}
+.MyPortfolio:hover{
+    transform: translateY(5px);
+    color: rgb(255, 255, 255);
+    background-color: #696767;
+    border: 1px solid #696767;
+}
